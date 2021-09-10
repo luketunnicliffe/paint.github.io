@@ -1,3 +1,7 @@
+<?php
+
+print <<<EOF
+
 <!document html>
 <html>
 <style>
@@ -7,3 +11,5 @@
 Hello there
 </body>
 </html>
+
+EOF;
