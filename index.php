@@ -1,15 +1,9 @@
-<?php
-
-print <<<EOF
-
-<!document html>
+<!DOCTYPE html>
 <html>
-<style>
-</style>
-
+<head>
+<title>How to put PHP in HTML - Simple Example</title>
+</head>
 <body>
-Hello there again
+<h1><?php echo "This message is from server side." ?></h1>
 </body>
 </html>
-
-EOF;
